@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.13-rc-slim
 
 #Install and update system dependencies
 RUN apt update -y; apt install -y supervisor
