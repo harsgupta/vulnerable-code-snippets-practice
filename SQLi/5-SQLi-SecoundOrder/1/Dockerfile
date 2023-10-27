@@ -1,5 +1,5 @@
 #PHP Apache setup
-FROM php:8.2-apache
+FROM php:latest
 
 #Update and install needed packages:
 RUN apt-get update \
